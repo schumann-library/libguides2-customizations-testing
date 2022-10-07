@@ -5,7 +5,10 @@
 #alert_banner {
     background:#D44242; 
     color:black;
-    
+}
+
+body {
+    padding: 0;
 }
 
 #s-lg-guide-name {
