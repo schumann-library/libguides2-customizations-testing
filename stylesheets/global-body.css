@@ -1,3 +1,24 @@
+/*
+
+    OVERWRITING LIBGUIDE DEFAULTS
+
+*/
+
+body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.s-lib-side-borders {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*
+
+    TYPOGRAPHY
+
+*/
 Body,
 #search_blaster_options,
 #main_menu .dropdown-menu a {
