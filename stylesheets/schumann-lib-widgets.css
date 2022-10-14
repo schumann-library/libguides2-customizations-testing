@@ -7,6 +7,18 @@
 .s-lg-col-boxes .s-lib-box {
     border: 0;
     box-shadow: none;
+    margin: 0 0 0;
+}
+
+/*
+
+    ALERT BANNER
+
+*/
+
+#alert_banner {
+    background:#D44242; 
+    color:black;
 }
 
 /*
