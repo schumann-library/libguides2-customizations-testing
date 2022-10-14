@@ -1,12 +1,13 @@
 /*
 
-    SEARCHBLASTER
+    GLOBAL WIDGET SETTINGS
 
 */
 
-
-
-
+.s-lg-col-boxes .s-lib-box {
+    border: 0;
+    box-shadow: none;
+}
 
 /*
 
