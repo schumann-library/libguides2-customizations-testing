@@ -25,7 +25,17 @@ body {
 #alert_banner {
     background:#D44242; 
     color:black;
+    margin: 0 0 0;
+}
+
+#s-lg-box-17557888 {
     margin: 0;
+    padding: 0;
+}
+#s-lg-content-38699514 p {
+    margin:0;
+    padding:0;
+    line-height: 20px;
 }
 
 #s-lg-guide-name {
