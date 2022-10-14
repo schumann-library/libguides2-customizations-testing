@@ -14,6 +14,68 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+/* Include this CSS in the guide custom JS/CSS for the home page */
+
+/*
+
+    HOMEPAGE
+
+*/
+
+#alert_banner {
+    background:#D44242; 
+    color:black;
+}
+
+#s-lg-guide-name {
+    display: none;
+}
+
+#s-lg-guide-tabs-title-bar {
+    border-top: 0;
+}
+
+#s-lg-guide-name {
+    margin: 0;
+}
+
+.s-lib-box.s-lib-box-std {
+    background: transparent;
+}
+
+.s-lib-box .s-lib-box-title {
+    background: transparent;
+}
+
+#second_row {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+@media (min-width:768px) {
+    #first_row {
+    background-color: #aaa;
+    background-image: url(https://libapps.s3.amazonaws.com/accounts/314458/images/IMG_20181204_143930.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+border-bottom:  1em solid black;
+
+    }
+    #s-lg-row-1 {
+        background: rgba(247, 247, 247, 1);
+        border-radius: 10px;
+    }
+    .navbar {
+        margin-bottom: 0;
+    }
+}
+
+
+.img {width: 100%;}
+/* END: schumann-lib-homepage.css */
 
 /*
 
