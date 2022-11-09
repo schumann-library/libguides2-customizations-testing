@@ -15,8 +15,8 @@
     type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- local styles -->
-  <link rel="stylesheet" href="stylesheets/global-header.css">
-  <link rel="stylesheet" href="stylesheets/global-typography.css">
+  <link rel="stylesheet" href="../stylesheets/global-header.css">
+  <!-- <link rel="stylesheet" href="../stylesheets/global-typography.css"> -->
 
   <!--Scripts -->
   <!-- ALREADY INCLUDED IN LIBGUIDES 2. -->
@@ -26,7 +26,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
     integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
     crossorigin="anonymous"></script>
-  <script src="javascripts/get-hours.js"></script>
+  <script src="../javascripts/get-hours.js"></script>
+  <script src="../javascripts/hamburger-menu-navbar.js"></script>
 
 
 
@@ -63,8 +64,7 @@
     </div>
     <nav class="navbar navbar-default">
       <div>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my_navbar"
-          aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -106,8 +106,8 @@
         </div>
         <!-- END: .flex-container -->
 
-        <nav class="collapse navbar-collapse" id="my_navbar">
-          <div class="container">
+        <nav class="in" id="my_navbar">
+          <div class="navbar-container">
             <ul id="main_menu" class="nav navbar-nav">
               <li role="presentation" class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"

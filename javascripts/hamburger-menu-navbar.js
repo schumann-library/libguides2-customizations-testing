@@ -1,21 +1,18 @@
 $(document).ready(function () {
-    // document.getElementById("my_navbar").style.opacity = "0.0";  
+    
     $(".navbar-toggle").click(function () {
 
         $(".in").fadeToggle(100);
 
-        //toggle the button beetween relitive and fixed
-        if($(".navbar-toggle").css("position") == "relative"){
-
-            $(".navbar-toggle").css("position", "fixed");
-
-        } else {
-
-            $(".navbar-toggle").css("position", "relative");
-            
-        }
-
     });
+
+    // $(window).resize(function () {
+    //     if(document.body.clientWidth <= 810){
+    //         $(".in").css("display", "none")
+    //     } else {
+    //         $(".in").css("display", "unset")
+    //     }
+    // })
 
     $('.menu .service-lvl a').on('click', function () {
         $(this).parent().parent().toggleClass('move');
