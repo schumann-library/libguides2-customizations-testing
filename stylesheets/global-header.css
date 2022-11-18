@@ -131,6 +131,8 @@
     color: black;
 }
 
+
+
 @media all and (max-width: 991px) {
     
     #header_flex_container {
@@ -144,6 +146,35 @@
 }
 
 @media all and (max-width: 810px) {
+
+    .move {
+        transition: all 0.3s ease;
+        transform: translateX(-100%);
+    }
+
+    .dropdown-menu {
+        transition: all 0.3s ease;
+        transform: translateX(100%);
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        background-color: black;
+    }
+
+    .dropdown-header {
+        padding: unset !important;
+        background: black;
+    }
+
+    .divider {
+        color: #777;
+        margin: 9px 30% !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        /* color: #777; */
+        color: white !important;
+    }
 
     #main_menu {
         -webkit-flex-flow: column wrap;
@@ -161,17 +192,17 @@
         float: none;
         border: 0;
         box-shadow: 0 0 0 0;
-        background-color: #ffffff !important;
+        background-color: #000000 !important;
         color: #000000;
     }
-    
+
     #my_navbar {
         position: fixed;
         opacity: 71%;
         top: 0px;
         z-index: 500;
-        width: 100%;
-        height: 100%;
+        width: 100% !important;
+        height: 100% !important;
     }
 
     .container {
@@ -179,6 +210,7 @@
     }
 
     .navbar-container {
+        
         text-align: center;
         display: grid;
         margin-top: 150px;
@@ -192,11 +224,31 @@
         z-index: 501;
     }
 
+    /* offsets for navbar options */
+
+    .dropdown-menu.research{
+        transform: translate(400px,-69px);
+    }
+    .dropdown-menu.technology{
+        transform: translate(400px,-116px);
+    }
+    .dropdown-menu.spaces{
+        transform: translate(400px,-152px);
+    }
+    .dropdown-menu.archives{
+        transform: translate(400px,-186px);
+    }
+    .dropdown-menu.services{
+        transform: translate(400px,-217x);
+    }
+    .dropdown-menu.about{
+        transform: translate(400px,-262px);
+    }
 }
 
 @media all and (min-width: 811px){
     #my_navbar {
-        height: 37px;
+        height: 38px;
         display: block !important;
         opacity: 100% !important;
     }
