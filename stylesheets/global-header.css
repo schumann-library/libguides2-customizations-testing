@@ -148,12 +148,12 @@
 @media all and (max-width: 810px) {
 
     .move {
-        transition: all 0.3s ease;
+        /* transition: all 0.3s ease; */
         transform: translateX(-100%);
     }
 
     .dropdown-menu {
-        transition: all 0.3s ease;
+        /* transition: all 0.3s ease; */
         transform: translateX(100%);
         margin-top: auto;
         margin-bottom: auto;
@@ -239,7 +239,7 @@
         transform: translate(400px,-186px);
     }
     .dropdown-menu.services{
-        transform: translate(400px,-217x);
+        transform: translate(400px,-217px);
     }
     .dropdown-menu.about{
         transform: translate(400px,-262px);
