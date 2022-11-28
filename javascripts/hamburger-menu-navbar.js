@@ -22,15 +22,7 @@ $(document).ready(function () {
     
     $('.return-lvl').on('click', function () {
         $(this).parent().parent().parent().parent().removeClass('move');
-        // $(".dropdown-menu").css("transform", "unset");
+        
     });
-
-    function getOffset(el) {
-        const rect = el.getBoundingClientRect();
-        return {
-          left: rect.left + window.scrollX,
-          top: rect.top + window.scrollY
-        };
-    }
 
 });
