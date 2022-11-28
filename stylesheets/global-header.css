@@ -172,6 +172,16 @@
         margin: 9px 30% !important;
     }
 
+    .dropdown-menu > li > a:hover {
+        background-color: #FFCB05 !important;
+        color: #000000 !important;
+    }
+
+    .return-lvl {
+        font-weight: bold;
+        text-decoration-line: underline;
+    }
+
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         /* color: #777; */
         color: white !important;
@@ -199,7 +209,7 @@
 
     #my_navbar {
         position: fixed;
-        opacity: 80%;
+        opacity: 89%;
         top: 0px;
         z-index: 500;
         width: 100% !important;
@@ -219,43 +229,34 @@
 
     .navbar-toggle {
         position: fixed;
-        top: 81px;
+        top: 90px;
         right: 0px;
         background-color: black;
         display: unset;
         z-index: 501;
     }
 
-    .dropdown-menu > li > a:hover {
-        background-color: #FFCB05 !important;
-        color: #000000 !important;
-    }
-
-    .return-lvl {
-        font-weight: bold;
-        text-decoration-line: underline;
-    }
-
     /* offsets for navbar options */
-
+    /* 29px dif */
     .dropdown-menu.research{
-        transform: translate(400px,-69px);
+        transform: translate(100%,-40px);
     }
     .dropdown-menu.technology{
-        transform: translate(400px,-116px);
+        transform: translate(100%,-87px);
     }
-    .dropdown-menu.spaces{
-        transform: translate(400px,-152px);
+    .dropdown-menu.spaces{  
+        transform: translate(100%,-123px);
     }
     .dropdown-menu.archives{
-        transform: translate(400px,-186px);
+        transform: translate(100%,-157px);
     }
     .dropdown-menu.services{
-        transform: translate(400px,-217px);
+        transform: translate(100%,-188px);
     }
     .dropdown-menu.about{
-        transform: translate(400px,-262px);
+        transform: translate(100%,-233px);
     }
+
 }
 
 @media all and (min-width: 811px){
