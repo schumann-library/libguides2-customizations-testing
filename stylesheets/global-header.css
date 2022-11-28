@@ -221,10 +221,10 @@
     }
 
     .navbar-container {
-        
         text-align: center;
         display: grid;
         margin-top: 150px;
+        height: 0px;
     }
 
     .navbar-toggle {
@@ -235,26 +235,29 @@
         display: unset;
         z-index: 501;
     }
-
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: black !important;
+    }
     /* offsets for navbar options */
     /* 29px dif */
     .dropdown-menu.research{
-        transform: translate(100%,-40px);
+        transform: translate(100%,-40px) !important;
     }
     .dropdown-menu.technology{
-        transform: translate(100%,-87px);
+        transform: translate(100%,-87px) !important;
     }
     .dropdown-menu.spaces{  
-        transform: translate(100%,-123px);
+        transform: translate(100%,-123px) !important;
     }
     .dropdown-menu.archives{
-        transform: translate(100%,-157px);
+        transform: translate(100%,-157px) !important;
     }
     .dropdown-menu.services{
-        transform: translate(100%,-188px);
+        transform: translate(100%,-188px) !important;
     }
     .dropdown-menu.about{
-        transform: translate(100%,-233px);
+        transform: translate(100%,-217px) !important;
     }
 
 }
