@@ -145,7 +145,7 @@
     }
 }
 
-@media all and (max-width: 810px) {
+@media all and (max-width: 811px) {
 
     .move {
         /* transition: all 0.3s ease; */
@@ -154,6 +154,7 @@
 
     .dropdown-menu {
         /* transition: all 0.3s ease; */
+        position: static;
         transform: translateX(100%);
         margin-top: auto;
         margin-bottom: auto;
@@ -263,7 +264,7 @@
 
 }
 
-@media all and (min-width: 811px){
+@media all and (min-width: 812px){
     #my_navbar {
         height: 38px;
         display: block !important;
