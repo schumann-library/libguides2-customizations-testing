@@ -225,6 +225,7 @@
         display: grid;
         margin-top: 150px;
         height: 0px;
+        z-index: 501;
     }
 
     .navbar-toggle {
@@ -235,7 +236,7 @@
         display: unset;
         z-index: 501;
     }
-    
+
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
         color: black !important;
     }
