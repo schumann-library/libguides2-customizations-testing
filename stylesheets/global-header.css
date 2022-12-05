@@ -129,9 +129,8 @@
     /*text-transform: uppercase;*/
     padding: .5em 1.5em;
     color: black;
+    text-align: center;
 }
-
-
 
 @media all and (max-width: 991px) {
     
@@ -166,6 +165,7 @@
         font-weight: bold;
         padding: unset !important;
         background: black;
+        text-align: center;
     }
 
     .divider {
@@ -186,6 +186,7 @@
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         /* color: #777; */
         color: white !important;
+        text-align: center;
     }
 
     #main_menu {
@@ -269,5 +270,9 @@
         height: 38px;
         display: block !important;
         opacity: 100% !important;
+    }
+
+    .return-lvl {
+        display: none !important;
     }
 }
