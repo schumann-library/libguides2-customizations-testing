@@ -148,7 +148,7 @@
 
     .move {
         /* transition: all 0.3s ease; */
-        transform: translate(-100%, 30px);
+        transform: translateX(-100%) !important;
     }
 
     .dropdown-menu {
@@ -189,6 +189,7 @@
     }
 
     #main_menu {
+        transform: translateY(33px);
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
         padding: 0;
