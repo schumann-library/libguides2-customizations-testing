@@ -189,6 +189,7 @@
     }
 
     #main_menu {
+        transform: translateY(30px);
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
         padding: 0;
@@ -231,7 +232,7 @@
 
     .navbar-toggle {
         position: fixed !important;
-        top: 20px;
+        top: 120px;
         right: 20px;
         background-color: black;
         display: unset;
