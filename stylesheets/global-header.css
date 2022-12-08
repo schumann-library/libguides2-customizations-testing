@@ -132,6 +132,10 @@
     text-align: center;
 }
 
+.navbar-container {
+    width: 780px;
+}
+
 @media all and (max-width: 991px) {
     
     #header_flex_container {
@@ -189,7 +193,7 @@
     }
 
     #main_menu {
-        transform: translateY(33px);
+        transform: translateY(100px);
         -webkit-flex-flow: column wrap;
         flex-flow: column wrap;
         padding: 0;
@@ -218,10 +222,6 @@
         height: 100% !important;
     }
 
-    .container {
-        width: unset;
-    }
-
     .navbar-container {
         text-align: center;
         display: grid;
@@ -232,8 +232,8 @@
 
     .navbar-toggle {
         position: fixed !important;
-        top: 120px;
-        right: 20px;
+        top: 193px;
+        right: -5px;
         background-color: black;
         display: unset;
         z-index: 501;
