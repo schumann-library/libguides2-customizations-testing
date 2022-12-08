@@ -222,6 +222,10 @@
         height: 100% !important;
     }
 
+    .container{
+        width: unset;
+    }
+
     .navbar-container {
         text-align: center;
         display: grid;
