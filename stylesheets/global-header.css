@@ -143,8 +143,18 @@
         justify-content: space-around;
     }
 }
-
 @media all and (max-width: 811px) {
+  .dropdown-menu {
+        /* transition: all 0.3s ease; */
+        position: static;
+        transform: translateX(100%)!important;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        background-color: black;
+    }
+}
+@media all and (max-width: 766px) {
 
     .move {
         /* transition: all 0.3s ease; */
