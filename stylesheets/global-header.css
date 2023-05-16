@@ -144,11 +144,16 @@
     }
 }
 @media all and (max-width: 811px){
+    
 
      .move {
         /* transition: all 0.3s ease; */
         transform: translateX(-100%) !important;
     }
+
+    #main_menu .dropdown-toggle {
+    transform:translatex(100%);
+}
 
     .dropdown-menu {
         /* transition: all 0.3s ease; */
