@@ -247,22 +247,22 @@
     /* offsets for navbar options */
     /* 29px dif */
     .dropdown-menu.research{
-        transform: translate(100%, 0px) !important;
+        transform: translate(175%, 0px) !important;
     }
     .dropdown-menu.technology{
-        transform: translate(100%,-47px) !important;
+        transform: translate(175%,-47px) !important;
     }
     .dropdown-menu.spaces{  
-        transform: translate(100%,-83px) !important;
+        transform: translate(175%,-83px) !important;
     }
     .dropdown-menu.archives{
-        transform: translate(100%,-117px) !important;
+        transform: translate(175%,-117px) !important;
     }
     .dropdown-menu.services{
-        transform: translate(100%,-148px) !important;
+        transform: translate(175%,-148px) !important;
     }
     .dropdown-menu.about{
-        transform: translate(100%,-177px) !important;
+        transform: translate(175%,-177px) !important;
     }
 
 }
